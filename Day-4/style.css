@@ -1,0 +1,21 @@
+h1 {
+    /* text-shadow: -1px -1px 0 #FF0000; */
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+   }
+
+h3 {
+    color: yellowgreen;
+}
+
+
+#q1 {
+    color: blueviolet;
+}
+
+.c1 {
+}   
+
+label {
+}
