@@ -1,0 +1,34 @@
+body {
+    scroll-behavior: smooth;
+}
+h1 {
+    border: solid 30px;
+    padding-left: 70px;
+    padding-left: 140px;
+    padding-top: 27px;
+    padding-bottom: 25px;
+    /* padding: 50px; */
+    margin-left: auto;
+    /* margin-right: auto; */
+    width: 500px;
+}
+
+p {
+    border: solid;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    height: 200px;
+    border-radius: 500px;
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+}
+
+#im {
+    margin-left: auto;
+}
+
