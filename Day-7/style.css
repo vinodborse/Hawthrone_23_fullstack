@@ -1,0 +1,24 @@
+#d1, #d1-1, #d1-2 {
+    border: solid;
+}
+
+#d1 {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#d1-1 {
+    background-color: lightcoral;
+    width: 50%;
+}
+
+#d1-2 {
+    background-color: lightskyblue;
+    width: 50%;
+}
+
+
+h1 {
+    padding-left: 50%;
+}

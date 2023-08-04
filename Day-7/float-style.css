@@ -1,0 +1,38 @@
+body {
+    background-color: darkgray;
+}
+
+h1 {
+    border: solid;
+}
+
+.h-1 {
+    background-color: pink;
+    float: left;
+}
+
+.h-2 {
+    background-color: aqua;
+    margin-left: auto;
+    float: right;
+}
+
+h2 {
+    clear: both;
+
+}
+
+div {
+    border: solid;
+}
+
+#d1 {
+    background-color: violet;
+}
+
+#d2 {
+    background-color: goldenrod;
+    margin-top: 20px;
+}
+
+

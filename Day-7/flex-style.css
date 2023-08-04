@@ -1,0 +1,31 @@
+body {
+    background-color: yellow;
+}
+
+div {
+    border: solid;
+    background-color: whitesmoke;
+    width: 500px;
+}
+
+
+h1 {
+    border: solid;
+    width: 200px;
+}
+
+#i1 {
+    background-color: lightcoral;
+}
+#i2 {
+    background-color: lightgrey;
+}
+#i3 {
+    background-color: lightgreen;
+}
+#i4 {
+    background-color: lightskyblue;
+}
+#i5 {
+    background-color: lightsalmon;
+}
