@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+}
+
+img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+#d-1 {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+#d-2{
+    /* background-color: lightpink; */
+    display: flex;
+    /* justify-content: space-between; */
+    width: 700px;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+#d-3{
+    background-color: pink;
+    height: 500px;
+}
+
+#d-4{
+    background-color: lightgreen;
+    height: 300px;
+}

@@ -1,0 +1,41 @@
+body {
+    font-size: 20px;
+}
+
+#main {
+
+    background-color: lightblue;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 200px 200px 400px;
+    grid-template-rows: 200px 200px 200px;
+    justify-content: space-between;
+    align-content: space-between;
+
+
+}
+
+#d-1 {
+    background-color: lightcoral;
+}
+#d-2 {
+    background-color: lightgreen;
+}
+#d-3 {
+    background-color: lightgoldenrodyellow;
+}
+#d-4 {
+    background-color: lightsalmon;
+}
+#d-5 {
+    background-color: plum;
+}
+#d-6 {
+    background-color: rgb(244, 151, 151);
+}
+#d-7 {
+    background-color: lightseagreen;
+}
+#d-8 {
+    background-color: lemonchiffon;
+}
