@@ -1,0 +1,21 @@
+body {
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient( red, pink, rgb(81, 173, 235), rgb(182, 241, 88));    
+}
+
+
+#f1 {
+
+    font-size: 100px;
+}
+
+
+
+public int add(int a, int b) {
+    sysout(a+b);
+}
+
+
+
+add(9,4);

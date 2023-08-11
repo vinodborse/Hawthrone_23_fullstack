@@ -1,0 +1,26 @@
+body {
+    font-size: 20px;
+}
+
+#main {
+
+    background-color: black;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 150px 350px 150px;
+    align-content: space-around;
+
+}
+
+#d-1 {
+    background-color: lightcoral;
+    border-radius: 20px;
+}
+#d-2 {
+    background-color: lightgreen;
+    border-radius: 20px;
+}
+#d-3 {
+    background-color: lightgoldenrodyellow;
+}
