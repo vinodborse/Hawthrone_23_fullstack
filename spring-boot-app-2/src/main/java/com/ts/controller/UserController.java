@@ -19,4 +19,9 @@ public class UserController {
 		return userService.register(user);
 	}
 	
+	@PostMapping("/create-account")
+	public String createAccount(@RequestBody User user) {
+		return userService.createAccount(user);
+	}
+	
 }

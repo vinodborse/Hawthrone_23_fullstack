@@ -1,5 +1,7 @@
 package com.ts.service;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -25,11 +27,35 @@ public class AccountService {
 	public Account createAccountAh(Account account, String accountHolderEmail) {
 		User user = userDao.findByEmail(accountHolderEmail).get();
 	
+		
+		
 		Account ac = new Account();
 		ac.setAccountNumber(3434);
 		ac.setBalance(200L);
 		ac.setUser(user);
 
 		return accountDao.save(ac);
+	}
+	
+	
+	
+	public String addBalance(int accountNumber, Long balance) {
+		Optional<Account> account = accountDao.findByAccountNumber(accountNumber);
+		
+		if(account.isPresent()) {
+			Account ac = account.get();
+			Long currentBalance = ac.getBalance();
+			Long finalBalance = currentBalance + balance;
+			
+			ac.setBalance(finalBalance);
+			
+			accountDao.save(ac); //--->  {id, an, balace} = {2, 789, 330}
+			
+			return "Balance has been updated..";
+		} else {
+			return "Account is not available";
+		}
+		
+		
 	}
 }

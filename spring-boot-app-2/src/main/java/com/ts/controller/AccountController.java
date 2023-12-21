@@ -24,4 +24,9 @@ public class AccountController {
 	public Account createAccountAh(@RequestBody Account account, @RequestParam("accountHolder") String accountHolder) {
 		return accountService.createAccountAh(account, accountHolder);
 	}
+	
+	@PostMapping("/add-balance")
+	public String addBalance(@RequestParam("acn") int accountNumber, @RequestParam("bal") Long balance) {
+		return accountService.addBalance(accountNumber, balance);
+	}
 }
